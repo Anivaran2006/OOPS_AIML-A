@@ -1,14 +1,12 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-inline int add(int a, int b) {
-    int c = a + b;
-    return c;
-}
-
 int main() {
-    int d = 10;
-    int e = 20;
-    cout << add(d, e) << endl;
-    cout << add(30, 40) << endl;
+    int arr[] = {10, 20, 30, 40, 50};
+
+    for (auto x : arr) {
+        cout << x << " ";
+    }
+
+    return 0;
 }
